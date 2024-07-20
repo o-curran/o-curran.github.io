@@ -11,7 +11,7 @@ h2{
 
 @font-face {
   font-family: "Relay Medium";
-  src: url("linguistics/relay-medium.ttf");
+  src: url("linguistics/relay-medium.ttf") format("truetype");
 }
 
 .header{
