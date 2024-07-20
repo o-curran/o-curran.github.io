@@ -10,12 +10,12 @@ h2{
 }
 
 @font-face {
-  font-family: "Relay Medium";
-  src: url("linguistics/relay-medium.ttf") format("truetype");
+  font-family: Relay-Medium;
+  src: url('linguistics/relay-medium.ttf') format('truetype');
 }
 
 .header{
-	font-family: "Relay Medium";
+	font-family: Relay-Medium;
 	font-size:50px;
 	margin:10px 0px 10px 0px;
 }
