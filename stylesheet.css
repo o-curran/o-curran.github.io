@@ -9,9 +9,9 @@ h2{
 	margin:20px 0px -10px 0px;
 }
 
-footer{
-	text-align:center;
-	bottom:0;
+@font-face {
+  font-family: relay-medium;
+  src: url('relay-medium.ttf')  format('truetype');
 }
 
 .header{
