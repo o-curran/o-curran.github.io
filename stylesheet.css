@@ -1,0 +1,59 @@
+body{
+	background-color:#dcf7d7;
+	font-family:Noto Serif;
+	margin:0px 200px -30px 100px;
+	text-align:justify;
+}
+
+h2{
+	margin:20px 0px -10px 0px;
+}
+
+footer{
+	text-align:center;
+	bottom:0;
+}
+
+.header{
+	font-family:relay-medium;
+	font-size:50px;
+	margin:10px 0px 10px 0px;
+}
+
+.menu a, .menu span{
+	color:black;
+	margin:0px 20px 0px 0px;
+}
+
+.menu {
+	position: sticky;
+	top: 0;
+	width: 100%;
+	background-color:#dcf7d7;
+	padding:10px 0px 10px 0px;
+}
+
+.main{
+	margin:0px 120px 0px 120px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@font-face {
+  font-family: Zabur1;
+  src: url('linguistics/Zabur1.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: Zabur2;
+  src: url('linguistics/Zabur2.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: Zabur3;
+  src: url('linguistics/Zabur3.ttf')  format('truetype');
+}
