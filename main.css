@@ -1,22 +1,25 @@
 @font-face {
   font-family: Relay;
-  src: url("relay-medium.ttf") format("truetype");
+  src: url('assets/css/relay-medium.ttf') format('truetype');
 }
+
 @font-face {
   font-family: NotoSerif;
   font-style: normal;
-  src: url("NotoSerif.ttf") format("truetype");
+  src: url('assets/css/NotoSerif.ttf') format('truetype');
 }
+
 @font-face {
   font-family: NotoSerif;
   font-style: italic;
-  src: url("NotoSerif.ttf") format("truetype");
+  src: url('assets/css/NotoSerif.ttf') format('truetype');
 }
-body {
-  background-color: #3d3d54;
-  font-family: NotoSerif;
-  margin: 0px 20% 0px 20%;
-  text-align: justify;
+
+body{
+	background-color:#3d3d54;
+	font-family: NotoSerif;
+	margin:0px 20% 0px 20%;
+	text-align:justify;
   color: #ebebeb;
 }
 
@@ -32,11 +35,11 @@ body {
   font-family: Relay;
   position: sticky;
   top: 0;
-  background-color: #3d3d54;
+  background-color:#3d3d54;
 }
 
 a {
-  color: #dad7e8;
+  color: #f5eac9;
 }
 
 .navlink {
@@ -51,5 +54,3 @@ a {
 p {
   margin-bottom: 20px;
 }
-
-/*# sourceMappingURL=style.css.map */

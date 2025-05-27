@@ -1,18 +1,18 @@
 @font-face {
   font-family: Relay;
-  src: url('relay-medium.ttf') format('truetype');
+  src: url('assets/css/relay-medium.ttf') format('truetype');
 }
 
 @font-face {
   font-family: NotoSerif;
   font-style: normal;
-  src: url('NotoSerif.ttf') format('truetype');
+  src: url('assets/css/NotoSerif.ttf') format('truetype');
 }
 
 @font-face {
   font-family: NotoSerif;
   font-style: italic;
-  src: url('NotoSerif.ttf') format('truetype');
+  src: url('assets/css/NotoSerif.ttf') format('truetype');
 }
 
 body{
@@ -39,7 +39,7 @@ body{
 }
 
 a {
-  color: #dad7e8;
+  color: #f5eac9;
 }
 
 .navlink {
