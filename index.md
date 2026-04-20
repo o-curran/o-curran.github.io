@@ -4,7 +4,7 @@ title: Home
 date: 09-2025
 ---
 
-Hello! My name is Odhrán, pronounced /ˈɔːɹ.ɪn/. I study computer science & linguistics at Trinity College, Dublin, where I've recently started second year.
+Hello! My name is Odhrán, pronounced /ˈɔːɹ.ɪn/. I study computer science & linguistics at Trinity College, Dublin, where I am a foundation scholar in my second year.
 
 Right now, I'm working under Prof. Nathan W. Hill at the Trinity Centre for Asian Studies on finite-state transducers for historical phonology. Aside from my studies, I'm a committee member of the College Historical Society, the world's oldest student debating society.
 
