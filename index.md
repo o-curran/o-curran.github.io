@@ -4,7 +4,7 @@ title: Home
 date: 09-2025
 ---
 
-hi! my name is <span id="random-name" style="cursor:pointer; text-decoration:underline;"></span>. i'm a foundation scholar in computer science and linguistics at trinity college, dublin; my interests include in computing, language, and <span id="random-entry" style="cursor:pointer; text-decoration:underline;">...</span>.
+hi! my name is <span id="random-name" style="cursor:pointer; text-decoration:underline;"></span>. i'm a foundation scholar in computer science and linguistics at trinity college, dublin; my interests include computing, language, and <span id="random-entry" style="cursor:pointer; text-decoration:underline;">...</span>.
 
 right now, i'm doing computational neuroscience research at the di liberto lab, organising schools debating events as librarian of the hist, and reading a lot of books.
 
