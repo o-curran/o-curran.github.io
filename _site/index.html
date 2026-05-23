@@ -18,13 +18,68 @@
     <a href="/misc.html" class="navlink" >Misc</a>
   
 </nav>
-    <p>Hello! My name is Odhrán, pronounced /ˈɔːɹ.ɪn/. I study computer science &amp; linguistics at Trinity College, Dublin, where I’ve recently started second year.</p>
+    <p>hi! my name is <span id="random-name" style="cursor:pointer; text-decoration:underline;"></span>. i’m a foundation scholar in computer science and linguistics at trinity college, dublin; my interests include in computing, language, and <span id="random-entry" style="cursor:pointer; text-decoration:underline;">…</span>.</p>
 
-<p>Right now, I’m working under Prof. Nathan W. Hill at the Trinity Centre for Asian Studies on finite-state transducers for historical phonology. Aside from my studies, I’m a committee member of the College Historical Society, the world’s oldest student debating society.</p>
+<p>right now, i’m doing computational neuroscience research at the di liberto lab, organising schools debating events as librarian of the hist, and reading a lot of books.</p>
 
-<p>You can find projects I’ve worked on <a href="projects.html">here</a>, or other assorted miscellany <a href="misc.html">here</a>.</p>
+<p>you can find some projects i’ve worked on <a href="projects.html">here</a> and some posts i’ve written <a href="misc.html">here</a>.</p>
 
-<p>Feel free to reach out! Get in touch at <a href="mailto:oscurran@gmail.com">oscurran(at)gmail(dot)com</a> or <a href="mailto:curranod@tcd.ie">curranod(at)tcd(dot)ie</a>.</p>
+<p>feel free to get in touch at <a href="mailto:oscurran@gmail.com">oscurran [at] gmail [dot] com</a>.</p>
+
+<script>
+  const names = [
+    "odhrán",
+    "/ˈɔːɹ.ɪn/",
+    "/ˈɔːɹ.aːn/",
+    "/ˈoːɾˠ.aːnˠ/"
+  ];
+
+  let currentNameIndex = 0;
+  const nameElement = document.getElementById('random-name');
+
+  const setName = () => {
+    if (nameElement) nameElement.textContent = names[currentNameIndex];
+  };
+
+  document.addEventListener('DOMContentLoaded', setName);
+
+  if (nameElement) {
+    nameElement.addEventListener('click', () => {
+      currentNameIndex = (currentNameIndex + 1) % names.length;
+      setName();
+    });
+  }
+
+  const entries = [
+    "cognition",
+	"public policy",
+	"philosophy",
+	"rhetoric",
+	"mathematics",
+	"poetry",
+	"public transit",
+	"cities",
+	"speculative fiction",
+	"marginalia",
+	"second-hand bookshops",
+	"library stamps",
+	"abandoned websites",
+	"overheard conversations",
+	"edge cases",
+	"pointed questions",
+  ];
+
+  const randomEntry = () => entries[Math.floor(Math.random() * entries.length)];
+  const element = document.getElementById('random-entry');
+
+  const setEntry = () => {
+    if (element) element.textContent = randomEntry();
+  };
+
+  document.addEventListener('DOMContentLoaded', setEntry);
+  if (element) element.addEventListener('click', setEntry);
+</script>
+
 
   </body>
 </html>

@@ -4,10 +4,64 @@ title: Home
 date: 09-2025
 ---
 
-Hello! My name is Odhrán, pronounced /ˈɔːɹ.ɪn/. I study computer science & linguistics at Trinity College, Dublin, where I've recently started second year.
+hi! my name is <span id="random-name" style="cursor:pointer; text-decoration:underline;"></span>. i'm a foundation scholar in computer science and linguistics at trinity college, dublin; my interests include in computing, language, and <span id="random-entry" style="cursor:pointer; text-decoration:underline;">...</span>.
 
-Right now, I'm working under Prof. Nathan W. Hill at the Trinity Centre for Asian Studies on finite-state transducers for historical phonology. Aside from my studies, I'm a committee member of the College Historical Society, the world's oldest student debating society.
+right now, i'm doing computational neuroscience research at the di liberto lab, organising schools debating events as librarian of the hist, and reading a lot of books.
 
-You can find projects I've worked on [here](projects.html), or other assorted miscellany [here](misc.html).
+you can find some projects i've worked on [here](projects.html) and some posts i've written [here](misc.html).
 
-Feel free to reach out! Get in touch at [oscurran(at)gmail(dot)com](mailto:oscurran@gmail.com) or [curranod(at)tcd(dot)ie](mailto:curranod@tcd.ie).
+feel free to get in touch at [oscurran [at] gmail [dot] com](mailto:oscurran@gmail.com).
+
+<script>
+  const names = [
+    "odhrán",
+    "/ˈɔːɹ.ɪn/",
+    "/ˈɔːɹ.aːn/",
+    "/ˈoːɾˠ.aːnˠ/"
+  ];
+
+  let currentNameIndex = 0;
+  const nameElement = document.getElementById('random-name');
+
+  const setName = () => {
+    if (nameElement) nameElement.textContent = names[currentNameIndex];
+  };
+
+  document.addEventListener('DOMContentLoaded', setName);
+
+  if (nameElement) {
+    nameElement.addEventListener('click', () => {
+      currentNameIndex = (currentNameIndex + 1) % names.length;
+      setName();
+    });
+  }
+
+  const entries = [
+    "cognition",
+	"public policy",
+	"philosophy",
+	"rhetoric",
+	"mathematics",
+	"poetry",
+	"public transit",
+	"cities",
+	"speculative fiction",
+	"marginalia",
+	"second-hand bookshops",
+	"library stamps",
+	"abandoned websites",
+	"overheard conversations",
+	"edge cases",
+	"pointed questions",
+  ];
+
+  const randomEntry = () => entries[Math.floor(Math.random() * entries.length)];
+  const element = document.getElementById('random-entry');
+
+  const setEntry = () => {
+    if (element) element.textContent = randomEntry();
+  };
+
+  document.addEventListener('DOMContentLoaded', setEntry);
+  if (element) element.addEventListener('click', setEntry);
+</script>
